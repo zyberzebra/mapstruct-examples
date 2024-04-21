@@ -1,4 +1,4 @@
-package zebra;
+package zebra.abstractbase;
 
 public interface ProductDTO {
     double getPrice();

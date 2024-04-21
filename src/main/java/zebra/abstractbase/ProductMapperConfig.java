@@ -1,4 +1,4 @@
-package zebra;
+package zebra.abstractbase;
 
 import org.mapstruct.MapperConfig;
 import org.mapstruct.Mapping;

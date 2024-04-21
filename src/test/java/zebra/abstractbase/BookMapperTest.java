@@ -1,11 +1,12 @@
-package zebra;
+package zebra.abstractbase;
 
 import org.junit.jupiter.api.Test;
-import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+import zebra.abstractbase.Book;
+import zebra.abstractbase.BookDTO;
+import zebra.abstractbase.BookMapper;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class BookMapperTest {
     BookMapper bookMapper = Mappers.getMapper(BookMapper.class);

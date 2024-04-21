@@ -1,4 +1,4 @@
-package zebra;
+package zebra.abstractbase;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
