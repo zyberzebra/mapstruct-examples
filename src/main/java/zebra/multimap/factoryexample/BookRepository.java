@@ -1,4 +1,4 @@
-package zebra.factoryexample;
+package zebra.multimap.factoryexample;
 
 import org.mapstruct.Named;
 import org.mapstruct.ObjectFactory;
@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class BookRepository implements Repository {
 
-    private final Map<Long,Book> bookRepo = new HashMap<>();
+    private final Map<Long, Book> bookRepo = new HashMap<>();
 
     public Book getBookFromShelf(Long id){
      return bookRepo.getOrDefault(id,new Book(-404L));

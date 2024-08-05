@@ -1,6 +1,4 @@
-package zebra.factoryexample;
-
-import java.util.List;
+package zebra.multimap.factoryexample;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +8,7 @@ import lombok.Setter;
 public class BookDTO {
     private Long id;
     private String title;
+    private String alternativeTitle;
     private String hiddenMessage;
-    private List<BookDTO> list;
 
 }
